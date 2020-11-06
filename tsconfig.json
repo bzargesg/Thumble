@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"module": "commonjs",
+		"target": "ES5",
+		"lib": [
+			"esnext",
+			"dom",
+			"DOM.Iterable"
+		],
+		"removeComments": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react",
+		"allowJs": true,
+		"baseUrl": "./",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"paths": {
+			"app/*":[
+				"src/app/*"
+			]
+		}
+	},
+	"include": [
+		"./src",
+		"./webpack.config.ts"
+	]
+}
